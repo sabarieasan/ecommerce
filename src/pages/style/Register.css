@@ -1,0 +1,185 @@
+.back-res {
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  background: rgb(0, 0, 0);
+  background: linear-gradient(90deg, rgb(0, 255, 255) 15%, blueviolet 100%);
+}
+.res {
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+.register {
+  width: 40%;
+
+  height: 98%;
+  margin: 2rem auto;
+  display: flex;
+  box-shadow: 10px 10px 10px 0px rgba(70, 71, 75, 0.5);
+  border: 3px solid blue;
+  flex-direction: column;
+  font-family: var(--font-family);
+  background-color: rgb(14, 13, 13);
+  border-radius: 20px;
+  align-items: center;
+  justify-content: center;
+}
+.register:hover {
+  border: 4px solid blueviolet;
+}
+.hed {
+  width: 90%;
+  margin: 0.5rem auto;
+  text-align: center;
+  margin-bottom: 5rem;
+}
+.register-hd {
+  width: 98%;
+  margin: 0 auto;
+  font-size: 24px;
+  font-weight: 600;
+  color: white;
+}
+.inputRegister {
+  width: 96%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+}
+.inputRegister input {
+  width: 90%;
+  margin: 1rem auto;
+  padding: 12px 46px;
+  background-color: transparent;
+  background: transparent;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  font-size: 19px;
+  font-weight: 400;
+  color: white;
+  border-radius: 10px;
+  border-bottom: 1px solid white;
+
+  flex-direction: column;
+}
+
+.btn {
+  width: 50%;
+  margin: 1rem auto;
+  display: flex;
+  gap: 2rem;
+}
+.submit-btn-btn {
+  width: 50%;
+  margin: 1rem auto;
+  padding: 5px 12px;
+  font-size: 19px;
+  font-weight: 600;
+  color: white;
+  border-radius: 6px;
+  background: rgb(0, 0, 0);
+  background: linear-gradient(90deg, rgb(0, 255, 255) 15%, blueviolet 100%);
+}
+.reset-btn {
+  width: 50%;
+  margin: 1rem auto;
+  padding: 5px 12px;
+  font-size: 19px;
+  font-weight: 600;
+  color: white;
+  border-radius: 6px;
+  background: rgb(0, 0, 0);
+  background: linear-gradient(90deg, rgb(0, 255, 255) 15%, blueviolet 100%);
+}
+.reset-btn:hover {
+  color: crimson;
+  border: 2px solid springgreen;
+  font-size: 18px;
+  font-weight: 800px;
+}
+.submit-btn-btn:hover {
+  color: crimson;
+  border: 2px solid springgreen;
+  font-size: 18px;
+  font-weight: 800px;
+}
+.log-link {
+  color: azure;
+}
+.error {
+  color: red;
+  font-size: 16px;
+}
+
+@media (max-width: 768px) {
+  .register {
+    width: 80%;
+    height: 94%;
+    margin: 1rem auto;
+  }
+  .register:hover {
+    border: 4px solid blueviolet;
+  }
+  .hed {
+    width: 90%;
+
+    text-align: center;
+  }
+  .register-hd {
+    width: 98%;
+    margin: 0 auto;
+    font-size: 24px;
+    font-weight: 600;
+    color: white;
+  }
+  .inputRegister input {
+    width: 97%;
+    margin: 2rem auto;
+  }
+
+  .select {
+    width: 60%;
+    text-align: center;
+
+    margin: 0 auto;
+  }
+  .image-box {
+    width: 96%;
+    margin: 0.5rem auto;
+    font-size: 10px;
+    font-weight: 400;
+  }
+  .image {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .btn {
+    width: 80%;
+
+    margin: 0 auto;
+  }
+  .log-li {
+    color: azure;
+    font-size: 16px;
+    font-weight: 600;
+  }
+  .error {
+    margin-top: 5rem;
+    margin: 1rem auto;
+    text-align: center;
+    color: red;
+    font-size: 19px;
+    font-weight: 500;
+  }
+}

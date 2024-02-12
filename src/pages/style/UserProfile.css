@@ -1,0 +1,209 @@
+.profile-us {
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  background-color: whitesmoke;
+}
+.user-profile-us {
+  width: 40%;
+  height: auto;
+  margin: 2rem auto;
+  align-items: center;
+  justify-content: center;
+
+  flex-direction: column;
+  padding: 5px 13px;
+  gap: 1rem;
+  border-radius: 5px;
+  background-color: rgb(202, 226, 238);
+  box-shadow: 5px 10px 0px 5px rgba(0, 0, 0, 0.5);
+}
+.profile-img {
+  text-align: center;
+}
+.profile-img img {
+  border-radius: 50%;
+  outline-style: solid;
+  outline-color: rgb(43, 0, 128);
+  outline-width: 4px;
+  background-color: #fff;
+  padding: 0.25rem;
+  width: 70%;
+  height: 12rem;
+
+  text-align: center;
+}
+.profile-data-us {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.profile-name-us {
+  width: 100%;
+  height: 60px;
+  background-color: rgb(244, 241, 160);
+  box-shadow: 5px 10px 5px 0px rgba(0, 0, 0, 0.5);
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+}
+.id,
+.name,
+.email-name,
+.phone-name,
+.state-name,
+.city-name,
+.gender-name {
+  font-size: 19px;
+  font-weight: 800;
+  color: rgb(15, 15, 15);
+  text-transform: uppercase;
+}
+.profile-data-us input {
+  padding: 10px 30px;
+  border-radius: 5px;
+  border: 1px solid gray;
+}
+.profile-email-us {
+  width: 100%;
+  height: 60px;
+  background-color: rgb(244, 241, 160);
+  box-shadow: 5px 10px 5px 0px rgba(0, 0, 0, 0.5);
+  border-radius: 4px;
+  display: flex;
+  margin-top: 2rem;
+  flex-direction: column;
+}
+.profile-phoneNum-us {
+  width: 100%;
+  height: 60px;
+  background-color: rgb(244, 241, 160);
+  box-shadow: 5px 10px 5px 0px rgba(0, 0, 0, 0.5);
+  border-radius: 4px;
+  display: flex;
+  margin-top: 2rem;
+  flex-direction: column;
+}
+.profile-state {
+  width: 100%;
+  height: 60px;
+  background-color: rgb(244, 241, 160);
+  box-shadow: 5px 10px 5px 0px rgba(0, 0, 0, 0.5);
+  border-radius: 4px;
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: col;
+}
+.profile-city-us {
+  width: 100%;
+  height: 60px;
+  background-color: rgb(244, 241, 160);
+  box-shadow: 5px 10px 5px 0px rgba(0, 0, 0, 0.5);
+  border-radius: 4px;
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+.profile-radio-us {
+  width: 90%;
+  margin: 0 auto;
+  height: 60px;
+  background-color: rgb(244, 241, 160);
+  box-shadow: 5px 10px 5px 0px rgba(0, 0, 0, 0.5);
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+  margin-left: 2rem;
+  flex-direction: column;
+}
+.profile-city-us select {
+  padding: 10px 30px;
+  border-radius: 5px;
+  border: 1px solid gray;
+}
+.profile-radioContainer-us {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  gap: 2rem;
+}
+
+.profile-btnContainer-us {
+  width: 70%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 1.5rem;
+  margin-left: 3rem;
+  margin-top: 2rem;
+}
+
+.profile-btnContainer button {
+  padding: 0.75rem 1rem;
+  font-size: 1rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 0.25rem;
+  background-color: rgb(65, 65, 224);
+  color: #fff;
+  cursor: pointer;
+}
+.profile-data-us button:hover {
+  background-color: #fff;
+  color: #000;
+}
+@media (max-width: 768px) {
+  .user-profile-us {
+    width: 90%;
+    margin: 1rem auto;
+    height: auto;
+  }
+  .profile-img img {
+    width: 80%;
+  }
+  .profile-data-us {
+    width: 90%;
+    margin: 1rem auto;
+    justify-content: center;
+  }
+  .profile-name-us {
+    width: 90%;
+    margin: 1rem auto;
+  }
+  .profile-data-us input {
+    padding: 7px 10px;
+  }
+  .profile-email-us,
+  .profile-id,
+  .profile-state,
+  .profile-phoneNum-us,
+  .profile-city-us,
+  .profile-radio-us {
+    width: 90%;
+    margin: 1rem auto;
+  }
+  .name,
+  .email-name,
+  .phone-name,
+  .city-name,
+  .gender-name {
+    font-size: 14px;
+    font-weight: 500;
+    color: rgb(16, 16, 16);
+    text-transform: uppercase;
+  }
+  .profile-btnContainer-us {
+    width: 80%;
+    margin: 0.5rem auto;
+  }
+  .profile-data-us button {
+    padding: 0.5rem 0.5rem;
+    font-size: 16px;
+    font-weight: 500;
+
+    cursor: pointer;
+  }
+}
